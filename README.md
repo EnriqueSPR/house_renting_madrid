@@ -43,11 +43,11 @@ Created the following variables:
 
 Looked at the distributions of the data, value counts and correlation among the various categorical variables. Below are a few highlight figures.
 
-<img src="pictures/boxplots.png" width="300"/> <img src="pictures/area_rent_price.png" width="300"/>
+<img src="pictures/boxplots.png" width="350"/> <img src="pictures/area_rent_price.png" width="350"/>
 
-<img src="pictures/hist_no_transformation.png" width="400"/> <img src="pictures/hist_boxcox.png" width="400"/>
+<img src="pictures/hist_no_transformation.png" width="350"/> <img src="pictures/hist_boxcox.png" width="350"/>
 
-<img src="pictures/corr.png" width="400"/> <img src="pictures/scatter_matrix.png" width="400"/>
+<img src="pictures/corr.png" width="500"/> <img src="pictures/scatter_matrix.png" width="300"/>
 
 After the EDA, data was boxcox transformed and some outliers removed
 
