@@ -45,15 +45,11 @@ Looked at the distributions of the data, value counts and correlation among the 
 
 ![](pictures/boxplots.png)
 
-![](pictures/hist_no_transformation.png)   
-
-![](pictures/hist_boxcox.png)
+![alt-text-1](pictures/hist_no_transformation.png)  ![alt-text-2](pictures/hist_boxcox.png)
 
 ![](pictures/area_rent_price.png)
 
-![](pictures/corr.png)     
-
-![](pictures/scatter_matrix.png) 
+![alt-text-3](pictures/corr.png)     ![alt-text-4](pictures/scatter_matrix.png) 
 
 After the EDA, data was boxcox transformed and some outliers removed
 
