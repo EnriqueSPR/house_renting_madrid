@@ -43,11 +43,11 @@ Created the following variables:
 
 Looked at the distributions of the data, value counts and correlation among the various categorical variables. Below are a few highlight figures.
 
-<img src="pictures/boxplots.png" width="350"/> <img src="pictures/area_rent_price.png" width="350"/>
+<img src="pictures/boxplots.png" width="350"/> <img src="pictures/area_rent_price.png" width="350" height="450"/>
 
-<img src="pictures/hist_no_transformation.png" width="350"/> <img src="pictures/hist_boxcox.png" width="350"/>
+<img src="pictures/hist_no_transformation.png" width="400" height="300"/> <img src="pictures/hist_boxcox.png" width="400" height="300"/>
 
-<img src="pictures/corr.png" width="500"/> <img src="pictures/scatter_matrix.png" width="300"/>
+<img src="pictures/corr.png" width="500" height="400"/> <img src="pictures/scatter_matrix.png" width="300" height="400"/>
 
 After the EDA, data was boxcox transformed and some outliers removed
 
@@ -63,9 +63,8 @@ Lasso Regression – Because of the sparse data from the many categorical variab
 Random Forest – Again, with the sparsity associated with the data, I thought that this would be a good fit.
 
 **Model Performance**: 
-* Random Forest: Best_Score = 0.89
-* Decission Tree Regression: Best_Score = 0.88
-* Linear Regression: Best_Score = 0.86
+
+<img src="pictures/model_performance_boxcox_areas.png" width="350"/>
 
 ![](Images/Random%20Forest%20Data.png)
 
