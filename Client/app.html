@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Madrid Home Price Prediction</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="img"></div>
+<form class="form">
+    <h2>Area Built (Square Meters)</h2>
+    <input class="area built" id="uisq_mt"  name="sq_mt" value= 100>
+    <h2>Number of Rooms</h2>
+    <div class="switch-field">
+        <input type="radio" id="radio-rooms-1" name="uibedrooms" value="1" />
+        <label for="radio-rooms-1">1</label>
+        <input type="radio" id="radio-rooms-2" name="uibedrooms" value="2" checked />
+        <label for="radio-rooms-2">2</label>
+        <input type="radio" id="radio-rooms-3" name="uibedrooms" value="3" />
+        <label for="radio-rooms-3">3</label>
+        <input type="radio" id="radio-rooms-4" name="uibedrooms" value="4" />
+        <label for="radio-rooms-4">4</label>
+        <input type="radio" id="radio-rooms-5" name="uibedrooms" value="5" />
+        <label for="radio-rooms-5">5</label>
+        <input type="radio" id="radio-rooms-6" name="uibedrooms" value="6" />
+        <label for="radio-rooms-6">6</label>
+        <input type="radio" id="radio-rooms-7" name="uibedrooms" value="7" />
+        <label for="radio-rooms-7">7</label>
+    </div>
+    </form>
+<form class="form">
+    <h2>Number of Bathrooms</h2>
+    <div class="switch-field">
+        <input type="radio" id="radio-bathrooms-1" name="uibathrooms" value="1" />
+        <label for="radio-bathrooms-1">1</label>
+        <input type="radio" id="radio-bathrooms-2" name="uibathrooms" value="2" checked />
+        <label for="radio-bathrooms-2">2</label>
+        <input type="radio" id="radio-bathrooms-3" name="uibathrooms" value="3" />
+        <label for="radio-bathrooms-3">3</label>
+        <input type="radio" id="radio-bathrooms-4" name="uibathrooms" value="4" />
+        <label for="radio-bathrooms-4">4</label>
+    </div>
+        <h2>Location</h2>
+    <div>
+  <select class="area" name="" id="uiarea">
+      <option value="" disabled="disabled" selected="selected">Choose a Location</option>
+        <option>Electronic City</option>
+        <option>Chamartín</option>
+  </select>
+</div>
+    <button class="submit" onclick="onClickedEstimatePrice()" type="button">Estimate Rent</button>
+    <div id="uiEstimatedRent" class="result">	<h2></h2> </div>
+</body>
+</html>
+
+

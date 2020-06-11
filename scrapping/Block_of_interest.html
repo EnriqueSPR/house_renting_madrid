@@ -1,0 +1,76 @@
+﻿Block of an add with all the info:...house_containers = html_soup.find_all('div', class_="information exclusivo")
+                                   # prices = html_soup.find_all('div', class_="price")
+                                   # location = html_soup.find_all('div', class_="location")
+                                   # characteristics = html_soup.find_all('div', class_="characteristics")
+                                    # but..how to select a specific div within characteristics ?
+
+<div class="information exclusivo">
+
+    <img class="anunciante-logo" src="https://fotos.imghs.net/prof/logos/logo_590959_160602017194629.jpg">
+
+    <div class="priceBox">
+        <div class="price">
+            800 €<span class="priceType">/mes</span>
+        </div>
+        <div class="clearfix"></div>
+
+    </div>
+
+    <h3 class="title">
+        <a class="anuncioLink" data-cancel-events="" href="/alquilar/piso-arganzuela_delicias-4198675614_108900/" data-suggested="">Piso en calle del Atazar</a>
+    </h3>
+
+    <div class="location">
+        Delicias (Distrito Arganzuela. Madrid Capital)
+    </div>
+
+    <div class="description">
+        <!-- Test SEO Eliminar descripciones en anuncios en parrilla DK de la provincia de A Coruña -->
+        ¡FINCA SEMINUEVA! Vivienda exterior y luminosa en muy buen estado de&nbsp;55 m2, distribuidos en salón con cocina ame...
+    </div>
+
+    <div class="characteristics">
+        <div class="item">
+            55 m²
+        </div>
+        <div class="item" data-rooms="true">
+            1
+            <span class="icon icoBed"></span>
+        </div>
+        <div class="item">
+            1
+            <span class="icon icoBath"></span>
+        </div>
+        <div class="item">
+            14
+            €/m²
+        </div>
+
+
+
+        <div class="clear"></div>
+    </div>
+</div>
+
+
+# Click new pages...
+
+<div class="pager">
+
+    <div id="lnkPagAnt" class="button gray w162h32 left hidden"></div>
+
+    <span class="item selected">1</span>
+    <a class="item" href="/alquiler/pisos-madrid_capital_zona_urbana/2/" rel="next" data-click-analytics="clic-parrilla,paginador,pagina-2-v2">2</a>
+    <a class="item" href="/alquiler/pisos-madrid_capital_zona_urbana/3/" data-click-analytics="clic-parrilla,paginador,pagina-3-v2">3</a>
+    <a class="item" href="/alquiler/pisos-madrid_capital_zona_urbana/4/" data-click-analytics="clic-parrilla,paginador,pagina-4-v2">4</a>
+    <a class="item" href="/alquiler/pisos-madrid_capital_zona_urbana/5/" data-click-analytics="clic-parrilla,paginador,pagina-5-v2">5</a>
+    <a class="item" href="/alquiler/pisos-madrid_capital_zona_urbana/6/" data-click-analytics="clic-parrilla,paginador,pagina-6-v2">6</a>
+    <a class="item" href="/alquiler/pisos-madrid_capital_zona_urbana/7/" data-click-analytics="clic-parrilla,paginador,pagina-7-v2">7</a>
+    <span class="item ellipsis">...</span>
+    <a class="item" href="/alquiler/pisos-madrid_capital_zona_urbana/100/" data-click-analytics="clic-parrilla,paginador,pagina-100-v2">100</a>
+
+    <a id="lnkPagSig" class="button gray w162h32 right" rel="next" data-click-analytics="clic-parrilla,paginador,siguiente-bottom-v2-blankOnclic" href="/alquiler/pisos-madrid_capital_zona_urbana/2/">
+        <span class="showOn980">Siguiente</span>
+    </a>
+
+</div>
