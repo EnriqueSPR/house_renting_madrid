@@ -25,10 +25,10 @@
 Used beautifulsoup to retrieve the rent price, location, square meters of the house, number of bedrooms and number of bathrooms.
 
 # 2. Data Cleaning
-
- I made the following changes:
  
   * Formatted some columns
+  
+  * Parsed rent price 
 
   * Handling Nans
   
@@ -43,7 +43,7 @@ Created the following variables:
 
 Looked at the distributions of the data, value counts and correlation among the various categorical variables. Below are a few highlight figures.
 
-<img src="pictures/boxplots.png" width="350"/> <img src="pictures/area_rent_price.png" width="350" height="450"/>
+<img src="pictures/boxplots.png" width="350"/>      <img src="pictures/area_rent_price.png" width="350" height="450"/>
 
 <img src="pictures/hist_no_transformation.png" width="400" height="300"/> <img src="pictures/hist_boxcox.png" width="400" height="300"/>
 
@@ -62,7 +62,6 @@ I tried five different models and evaluated them using Score and Mean Absolute E
 <img src="pictures/model_performance_boxcox_areas.png" width="350"/>
 
 <img src="pictures/SVR.png" width="450" height="300"/>
-
 
 
 
