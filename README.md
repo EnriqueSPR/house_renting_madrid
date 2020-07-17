@@ -18,8 +18,7 @@
 
 **Python Version**: 3.7
 
-**Packages**: pandas, numpy, datetime, lxml, sklearn, scipy, matplotlib, seaborn, pickle
-
+**Packages**: pandas, numpy, beautifulsoup, sklearn, scipy, matplotlib, seaborn, flask, json, pickle.
 # 1. WebScrapping
 
 Used beautifulsoup to retrieve the rent price, location, square meters of the house, number of bedrooms and number of bathrooms.
