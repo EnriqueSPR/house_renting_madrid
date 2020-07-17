@@ -2,7 +2,7 @@
 
 * Created a tool that estimates rental prices from Madrid houses which can aid flat owners as well as people looking for a house to get an idea of the Real State Market in Madrid.
 
-* Scraped over 2000 house rent information from https://www.pisos.com/ using python and beautifulsoup.
+* Scraped over 2000 house rent information from https://www.pisos.com/ using python and the beautifulsoup library.
 
 * Performed data cleaning steps and removed outliers.
 
