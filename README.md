@@ -6,7 +6,7 @@
 
 * Performed data cleaning steps and removed outliers.
 
-* Exploratory Data Analyses shed light into the most important parameters driving house prices in Spain.These parameters were chosen in the model building process.
+* Exploratory Data Analyses shed light into the most important parameters driving house prices in Spain. These parameters were chosen in the model building process.
 
 * Optimized Linear, Lasso, Decission Tree, Random Forest, Support Vector Regressors using GridsearchCV to find the best model.
 
@@ -18,7 +18,7 @@
 
 **Python Version**: 3.7
 
-**Packages**: pandas, numpy, beautifulsoup, sklearn, scipy, matplotlib, seaborn, flask, json, pickle
+**Packages**: pandas, numpy, datetime, lxml, sklearn, scipy, matplotlib, seaborn, pickle
 
 # 1. WebScrapping
 
@@ -41,7 +41,7 @@ Created the following variables:
 
 # 3. Exploratory Data Analyses (EDA)
 
-Looked at the distributions of the data, value counts and correlation among the various categorical variables. Below are a few highlight figures.
+Looked at the distributions of the data, value counts and correlation among the various numeric variables. Below are a few highlight figures.
 
 <img src="pictures/boxplots.png" width="350"/>      <img src="pictures/area_rent_price.png" width="350" height="450"/>
 
