@@ -19,6 +19,7 @@
 **Python Version**: 3.7
 
 **Packages**: pandas, numpy, beautifulsoup, sklearn, scipy, matplotlib, seaborn, flask, json, pickle.
+
 # 1. WebScrapping
 
 Used beautifulsoup to retrieve the rent price, location, square meters of the house, number of bedrooms and number of bathrooms.
@@ -52,7 +53,7 @@ After the EDA, data was boxcox transformed and some outliers removed
 
 # 4. Model Selection and Tunning
 
-Categorical variables  were transformed into dummy variables. Data was splitted into train and tests sets with a test size of 20%.
+Categorical variables were transformed into dummy variables. Data was splitted into train and tests sets with a test size of 20%.
 
 I tried five different models and evaluated them using Score and Mean Absolute Error. 
 
