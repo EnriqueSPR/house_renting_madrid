@@ -2,7 +2,6 @@ import numpy as np
 import streamlit as st
 import pandas as pd
 import pickle
-from pickle import load
 from scipy.special import boxcox, inv_boxcox
 
 
@@ -48,8 +47,8 @@ locat = [i.capitalize() for i in locat]
 location = col1.selectbox("Select the location of the house", locat)
 
 # Model
-with open("Madrid_rent_price.pickle", 'rb') as pickle_file:
-    model = pickle.load(pickle_file)
+pickle_in = open("Madrid_rent_price.pickle","rb")
+model=pickle.load(pickle_in)
 
 # Load X file
 X = pd.read_csv("X.csv")
