@@ -71,6 +71,13 @@ I tried five different models and evaluated them using Score and Mean Absolute E
 
 # 5. Productionization
 
-In this step, I built a flask API endpoint that was hosted on a local webserver. The API endpoint takes in a request with the list of house parameters and returns the estimated price. A website that makes use of the model prediction was also created.
+* In this step, I built a flask API endpoint that was hosted on a local webserver. The API endpoint takes in a request with the list of house parameters and returns the estimated price. A website that makes use of the model prediction was also created.
 
 <img src="pictures/ScreenshotRentPredictor.png" width="450" height="450"/>
+
+* Secondly, I built locally an app with the [Streamlit](https://streamlit.io/) package and deployed it using the [Heroku](https://dashboard.heroku.com/apps) framework. 
+Click [here](https://house-pred-madrid-st.herokuapp.com/) to give it a try.
+
+<img src="pictures/streamlit_app.png" width="450"/>
+
+
