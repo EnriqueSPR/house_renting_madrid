@@ -8,7 +8,12 @@ from scipy.special import boxcox, inv_boxcox
 
 
 # Layout
-# st.beta_set_page_config(layout="wide") # NEW FEATURE !
+st.set_page_config(
+    page_title="madrid-house-rent-pred",
+    page_icon="🏡",
+    layout="wide",
+    initial_sidebar_state="expanded")
+
 col1 = st.sidebar
 col2, col3 = st.beta_columns((2,1))
 
