@@ -2,6 +2,7 @@ import numpy as np
 import streamlit as st
 import pandas as pd
 import pickle
+import sklearn
 from scipy.special import boxcox, inv_boxcox
 
 
@@ -54,6 +55,7 @@ model=pickle.load(pickle_in)
 X = pd.read_csv("X.csv")
 
 def predict_price(location, area, bedrooms, bathrooms):
+
     loc_index = np.where(X.columns==location)[0][0] # X is an np array so we use where method to loc the index
     
     x= np.zeros(len(X.columns))
