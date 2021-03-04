@@ -1,10 +1,10 @@
 import numpy as np
 import streamlit as st
-import PIL
 import pandas as pd
+import pickle
 from pickle import load
 from scipy.special import boxcox, inv_boxcox
-import pickle
+
 
 
 # Layout
