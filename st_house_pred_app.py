@@ -32,6 +32,7 @@ expander_bar = st.beta_expander("About")
 expander_bar.markdown("""
 * **Python libraries used:** pandas, numpy, beautifulsoup, sklearn, scipy, pickle.
 * **Data scrapped from [www.pisos.com](https://www.pisos.com/ )**.
+* **Author: [Enrique Alcalde](https://enriquespr.github.io/Enrique_portfolio_web/)** 🙋🏽‍♂️.
 """)
 
 col1.markdown("""
