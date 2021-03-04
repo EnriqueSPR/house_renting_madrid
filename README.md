@@ -76,7 +76,7 @@ I tried five different models and evaluated them using Score and Mean Absolute E
 <img src="pictures/ScreenshotRentPredictor.png" width="450" height="450"/>
 
 * Secondly, I built locally an app with the [Streamlit](https://streamlit.io/) package and deployed it using the [Heroku](https://dashboard.heroku.com/apps) framework. 
-Click [here](https://house-pred-madrid-st.herokuapp.com/) to give it a try.
+Click **[here](https://house-pred-madrid-st.herokuapp.com/)** to give it a try.
 
 <img src="pictures/streamlit_app.png" width="450"/>
 
