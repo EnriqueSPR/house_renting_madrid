@@ -18,14 +18,14 @@ st.title("House Rental Price Predictor in Madrid 🏡💲")
 # Description
 st.markdown("""
 
-**Description**: Created an app using machine learning tools that estimates rental prices from Madrid houses which can aid flat owners as well as people looking for a house to get an idea of the Real State Market in Madrid. 
+**Description**: Created an app using machine learning tools that estimates rental prices from Madrid houses. This can aid flat owners as well as people looking for a house to get an idea of the Real State Market in Madrid. 
 
 """)
 
 # About
 expander_bar = st.beta_expander("About")
 expander_bar.markdown("""
-* **Python libraries used:** pandas, numpy, beautifulsoup, sklearn, scipy, matplotlib, seaborn, flask, json, pickle
+* **Python libraries used:** pandas, numpy, beautifulsoup, sklearn, scipy, pickle.
 * **Data scrapped from [www.pisos.com](https://www.pisos.com/ )**.
 """)
 
